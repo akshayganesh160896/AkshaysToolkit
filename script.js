@@ -2,7 +2,8 @@ const projects = [
   {
     name: "One-Click Gift Chart",
     category: "Web App",
-    description: "Interactive gift planning chart for quick decision-making.",
+    description:
+      "A one-click solution to build gift charts for campaign and fundraising needs.",
     tech: ["React", "Vercel"],
     url: "https://one-click-gift-chart-final.vercel.app/",
     thumbnail: "assets/thumbnails/gift-chart.svg"
@@ -10,7 +11,8 @@ const projects = [
   {
     name: "Memo Builder",
     category: "Website",
-    description: "Creates polished memos quickly with structured sections.",
+    description:
+      "Rank names and identify individuals faster for internal memos.",
     tech: ["HTML", "CSS", "JavaScript"],
     url: "https://akshayganesh160896.github.io/MemoBuilder/",
     thumbnail: "assets/thumbnails/memo-builder.svg"
@@ -18,7 +20,8 @@ const projects = [
   {
     name: "Stratplan",
     category: "Web App",
-    description: "Strategic planning workspace for organizing plans and priorities.",
+    description:
+      "Visualize your org's pillars, objectives, and projects ranked against each other.",
     tech: ["HTML", "CSS", "JavaScript"],
     url: "https://akshayganesh160896.github.io/Stratplan/",
     thumbnail: "assets/thumbnails/stratplan.svg"
