@@ -174,7 +174,7 @@ function setupInteractiveBackground() {
       if (particle.y > window.innerHeight + 10) particle.y = -10;
 
       ctx.beginPath();
-      ctx.fillStyle = "rgba(210, 233, 255, 0.56)";
+      ctx.fillStyle = "rgba(120, 180, 235, 0.42)";
       ctx.arc(particle.x, particle.y, particle.size, 0, Math.PI * 2);
       ctx.fill();
     }

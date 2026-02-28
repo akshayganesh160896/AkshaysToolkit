@@ -1,23 +1,53 @@
 <svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="700" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#1A2A6C"/>
-      <stop offset="1" stop-color="#2EC4B6"/>
-    </linearGradient>
-    <linearGradient id="card" x1="0" y1="0" x2="400" y2="260" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FEE440"/>
-      <stop offset="1" stop-color="#FF7B54"/>
+      <stop stop-color="#05080D"/>
+      <stop offset="1" stop-color="#111A26"/>
     </linearGradient>
   </defs>
   <rect width="1200" height="700" fill="url(#bg)"/>
-  <circle cx="1030" cy="90" r="130" fill="#ffffff22"/>
-  <circle cx="130" cy="610" r="170" fill="#ffffff14"/>
-  <rect x="120" y="150" width="960" height="400" rx="28" fill="#ffffff18" stroke="#ffffff40"/>
-  <rect x="170" y="220" width="430" height="260" rx="20" fill="url(#card)"/>
-  <rect x="640" y="220" width="390" height="50" rx="10" fill="#ffffffbb"/>
-  <rect x="640" y="295" width="320" height="32" rx="8" fill="#ffffff99"/>
-  <rect x="640" y="347" width="365" height="32" rx="8" fill="#ffffff99"/>
-  <rect x="640" y="399" width="280" height="32" rx="8" fill="#ffffff99"/>
-  <text x="180" y="290" fill="#112" font-size="42" font-family="Arial, sans-serif" font-weight="700">One-Click Gift Chart</text>
-  <text x="180" y="340" fill="#112" font-size="24" font-family="Arial, sans-serif">Smart gift planning in seconds</text>
+
+  <rect x="82" y="78" width="1036" height="544" rx="28" fill="#FFFFFF0D" stroke="#FFFFFF2A"/>
+  <text x="122" y="136" fill="#DAEBFF" font-size="34" font-family="Arial, sans-serif" font-weight="700">One-Click Gift Chart</text>
+  <text x="122" y="170" fill="#8FA4BA" font-size="21" font-family="Arial, sans-serif">Gift selection matrix</text>
+
+  <rect x="122" y="206" width="956" height="360" rx="18" fill="#0E1520" stroke="#284A70"/>
+
+  <line x1="320" y1="206" x2="320" y2="566" stroke="#375875" stroke-width="2"/>
+  <line x1="518" y1="206" x2="518" y2="566" stroke="#375875" stroke-width="2"/>
+  <line x1="716" y1="206" x2="716" y2="566" stroke="#375875" stroke-width="2"/>
+  <line x1="914" y1="206" x2="914" y2="566" stroke="#375875" stroke-width="2"/>
+
+  <line x1="122" y1="286" x2="1078" y2="286" stroke="#375875" stroke-width="2"/>
+  <line x1="122" y1="366" x2="1078" y2="366" stroke="#375875" stroke-width="2"/>
+  <line x1="122" y1="446" x2="1078" y2="446" stroke="#375875" stroke-width="2"/>
+
+  <text x="151" y="255" fill="#B4CAE0" font-size="19" font-family="Arial, sans-serif">Budget</text>
+  <text x="360" y="255" fill="#B4CAE0" font-size="19" font-family="Arial, sans-serif">Occasion</text>
+  <text x="560" y="255" fill="#B4CAE0" font-size="19" font-family="Arial, sans-serif">Age Group</text>
+  <text x="760" y="255" fill="#B4CAE0" font-size="19" font-family="Arial, sans-serif">Category</text>
+  <text x="958" y="255" fill="#B4CAE0" font-size="19" font-family="Arial, sans-serif">Top Pick</text>
+
+  <rect x="738" y="304" width="156" height="46" rx="10" fill="#1D4A7A"/>
+  <text x="786" y="333" fill="#E9F4FF" font-size="18" font-family="Arial, sans-serif" font-weight="700">Tech</text>
+  <text x="154" y="333" fill="#9BC0E5" font-size="18" font-family="Arial, sans-serif">$50-100</text>
+  <text x="352" y="333" fill="#9BC0E5" font-size="18" font-family="Arial, sans-serif">Birthday</text>
+  <text x="553" y="333" fill="#9BC0E5" font-size="18" font-family="Arial, sans-serif">Teen</text>
+  <text x="952" y="333" fill="#D2F7D9" font-size="18" font-family="Arial, sans-serif">Headphones</text>
+
+  <rect x="738" y="384" width="156" height="46" rx="10" fill="#285C38"/>
+  <text x="770" y="413" fill="#EEFFF2" font-size="18" font-family="Arial, sans-serif" font-weight="700">Fitness</text>
+  <text x="154" y="413" fill="#9BC0E5" font-size="18" font-family="Arial, sans-serif">$30-60</text>
+  <text x="352" y="413" fill="#9BC0E5" font-size="18" font-family="Arial, sans-serif">Holiday</text>
+  <text x="553" y="413" fill="#9BC0E5" font-size="18" font-family="Arial, sans-serif">Adult</text>
+  <text x="952" y="413" fill="#D2F7D9" font-size="18" font-family="Arial, sans-serif">Yoga Set</text>
+
+  <rect x="738" y="464" width="156" height="46" rx="10" fill="#5A3E1D"/>
+  <text x="780" y="493" fill="#FFF6EA" font-size="18" font-family="Arial, sans-serif" font-weight="700">Books</text>
+  <text x="154" y="493" fill="#9BC0E5" font-size="18" font-family="Arial, sans-serif">$20-40</text>
+  <text x="352" y="493" fill="#9BC0E5" font-size="18" font-family="Arial, sans-serif">Thank You</text>
+  <text x="553" y="493" fill="#9BC0E5" font-size="18" font-family="Arial, sans-serif">All</text>
+  <text x="952" y="493" fill="#D2F7D9" font-size="18" font-family="Arial, sans-serif">Bestseller Novel</text>
+
+  <rect x="122" y="584" width="300" height="26" rx="8" fill="#1B7CD6"/>
 </svg>

@@ -1,15 +1,15 @@
 :root {
-  --bg-0: #081824;
-  --bg-1: #122d3d;
-  --bg-2: #1e3f4e;
-  --ink: #f4f7fb;
-  --soft-ink: #d1dce7;
-  --card: rgba(255, 255, 255, 0.08);
-  --card-border: rgba(255, 255, 255, 0.18);
-  --accent: #f9c74f;
-  --accent-2: #7bdff2;
-  --btn-0: #ff9f1c;
-  --btn-1: #ff5400;
+  --bg-0: #030303;
+  --bg-1: #080a0c;
+  --bg-2: #101318;
+  --ink: #f2f5f8;
+  --soft-ink: #a8b3bf;
+  --card: rgba(17, 20, 24, 0.8);
+  --card-border: rgba(255, 255, 255, 0.12);
+  --accent: #9ad0ff;
+  --accent-2: #6de0d2;
+  --btn-0: #3aa0ff;
+  --btn-1: #0074d9;
   --mx: 50%;
   --my: 40%;
 }
@@ -29,8 +29,8 @@ body {
   color: var(--ink);
   font-family: "Sora", sans-serif;
   background:
-    radial-gradient(1000px 500px at var(--mx) var(--my), rgba(123, 223, 242, 0.24), transparent 50%),
-    radial-gradient(800px 420px at 90% 10%, rgba(255, 159, 28, 0.2), transparent 45%),
+    radial-gradient(900px 460px at var(--mx) var(--my), rgba(58, 160, 255, 0.2), transparent 50%),
+    radial-gradient(760px 420px at 90% 10%, rgba(110, 224, 210, 0.14), transparent 45%),
     linear-gradient(130deg, var(--bg-0), var(--bg-1) 50%, var(--bg-2));
   overflow-x: hidden;
 }
@@ -57,7 +57,7 @@ body {
   height: 28rem;
   left: -9rem;
   top: -8rem;
-  background: rgba(249, 199, 79, 0.2);
+  background: rgba(58, 160, 255, 0.16);
 }
 
 .mesh-b {
@@ -65,7 +65,7 @@ body {
   height: 30rem;
   right: -10rem;
   bottom: -12rem;
-  background: rgba(123, 223, 242, 0.22);
+  background: rgba(109, 224, 210, 0.14);
 }
 
 .hero,
@@ -113,8 +113,8 @@ main {
 #searchInput {
   width: min(500px, 100%);
   border-radius: 999px;
-  border: 1px solid rgba(255, 255, 255, 0.26);
-  background: rgba(5, 18, 30, 0.38);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(6, 8, 11, 0.75);
   color: var(--ink);
   padding: 0.82rem 1.08rem;
   font-family: "JetBrains Mono", monospace;
@@ -123,11 +123,11 @@ main {
 }
 
 #searchInput::placeholder {
-  color: #afc4d7;
+  color: #7f8d9c;
 }
 
 #searchInput:focus {
-  outline: 2px solid rgba(123, 223, 242, 0.65);
+  outline: 2px solid rgba(58, 160, 255, 0.75);
   outline-offset: 1px;
 }
 
@@ -146,21 +146,21 @@ main {
   background: var(--card);
   border: 1px solid var(--card-border);
   backdrop-filter: blur(10px);
-  box-shadow: 0 16px 30px rgba(1, 7, 13, 0.42);
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.5);
   transform-style: preserve-3d;
   transition: transform 220ms ease, border-color 220ms ease;
   animation: card-in 620ms ease both;
 }
 
 .project-card:hover {
-  border-color: rgba(123, 223, 242, 0.55);
+  border-color: rgba(58, 160, 255, 0.58);
 }
 
 .thumbnail-wrap {
   position: relative;
   border-radius: 12px;
   overflow: hidden;
-  background: linear-gradient(145deg, rgba(255, 159, 28, 0.22), rgba(123, 223, 242, 0.3));
+  background: linear-gradient(145deg, rgba(58, 160, 255, 0.18), rgba(109, 224, 210, 0.2));
   transform: translateZ(24px);
 }
 
@@ -187,9 +187,9 @@ main {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.95);
   background:
-    radial-gradient(circle at 20% 25%, rgba(123, 223, 242, 0.55), transparent 40%),
-    radial-gradient(circle at 82% 80%, rgba(255, 159, 28, 0.55), transparent 42%),
-    linear-gradient(135deg, #0f2b40, #184360);
+    radial-gradient(circle at 20% 25%, rgba(58, 160, 255, 0.44), transparent 40%),
+    radial-gradient(circle at 82% 80%, rgba(109, 224, 210, 0.38), transparent 42%),
+    linear-gradient(135deg, #070a0e, #111821);
 }
 
 .thumbnail-wrap.no-image .thumbnail-fallback {
@@ -204,7 +204,7 @@ main {
 
 .description {
   margin: 0;
-  color: #d7e2ed;
+  color: #bcc7d2;
   line-height: 1.42;
 }
 
@@ -214,8 +214,8 @@ main {
   padding: 0.22rem 0.68rem;
   font-size: 0.73rem;
   font-weight: 700;
-  color: #182127;
-  background: linear-gradient(135deg, #f9c74f, #ffd976);
+  color: #eaf4ff;
+  background: linear-gradient(135deg, #1b3e66, #285b96);
 }
 
 .card-bottom {
@@ -228,14 +228,14 @@ main {
   margin: 0;
   font-family: "JetBrains Mono", monospace;
   font-size: 0.75rem;
-  color: #bdd1e2;
+  color: #8fa2b4;
 }
 
 .visit-btn {
   display: inline-flex;
   justify-content: center;
   text-decoration: none;
-  color: #ffffff;
+  color: #edf5ff;
   background: linear-gradient(145deg, var(--btn-0), var(--btn-1));
   border-radius: 10px;
   font-weight: 700;
@@ -245,7 +245,7 @@ main {
 
 .visit-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 12px 16px rgba(255, 84, 0, 0.26);
+  box-shadow: 0 12px 16px rgba(0, 116, 217, 0.32);
 }
 
 .visit-btn[aria-disabled="true"] {
@@ -255,18 +255,18 @@ main {
 
 .empty-state {
   margin-top: 1rem;
-  color: #c9d6e2;
+  color: #95a6b8;
 }
 
 footer {
   margin-top: 2.1rem;
-  color: #a9bfd1;
+  color: #8391a0;
   font-size: 0.9rem;
 }
 
 code {
   font-family: "JetBrains Mono", monospace;
-  background: rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.08);
   border-radius: 5px;
   padding: 0.05rem 0.32rem;
 }
